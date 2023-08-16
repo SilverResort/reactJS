@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.intro {
+  background-image: url("D:\Travail\Cours\GoMyCode Fullstack JS\GoMyCode\ReactJS\silver-resorts\public\Background.jpg");
+}
+
+.formulaire{
+  display: flex;
+  justify-content: center;
+}
+
+.recherche{
+  display: flex;
+  justify-content: center;
+}
+
+.titre {
+  color: white;
+}
+
+h2 {
+  color: #004563;
+  font-weight: bold;
+}
+
+@import '~mdb-ui-kit/css/mdb.min.css';
